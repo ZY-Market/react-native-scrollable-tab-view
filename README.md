@@ -1,6 +1,6 @@
 
 ## react-native-scrollable-tab-view
-[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)
+[![npm version](https://badge.fury.io/js/zy-react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/zy-react-native-scrollable-tab-view)
 
 This is probably my favorite navigation pattern on Android, I wish it
 were more common on iOS! This is a very simple JavaScript-only
@@ -11,8 +11,8 @@ the animations behind this work, check out the Rebound section of the
 
 ## Add it to your project
 
-1. Run `npm install react-native-scrollable-tab-view --save`
-2. `var ScrollableTabView = require('react-native-scrollable-tab-view');`
+1. Run `npm install zy-react-native-scrollable-tab-view --save`
+2. `var ScrollableTabView = require('zy-react-native-scrollable-tab-view');`
 
 ## Demo
 <a href="https://appetize.io/embed/6qfv7eydjtm34mhn6qwj2nt3xm?embed=true&screenOnly=false&xdocMsg=true&debug=true&scale=100&deviceColor=black&orientation=portrait&device=iphone6s&osVersion=9.3&deviceId=RGV2aWNlOjU2Y2FjNTExZWQwOTM2MTEwMGRhYTNlNg&platform=ios&width=375&height=668&phoneWidth=416&phoneHeight=870&screenOffsetLeft=21&screenOffsetTop=100&params=%7B%7D" target="_blank"><strong>Run this example</strong></a>
@@ -23,7 +23,7 @@ the animations behind this work, check out the Rebound section of the
 ## Basic usage
 
 ```javascript
-var ScrollableTabView = require('react-native-scrollable-tab-view');
+var ScrollableTabView = require('zy-react-native-scrollable-tab-view');
 
 var App = React.createClass({
   render() {
@@ -44,7 +44,7 @@ Suppose we had a custom tab bar called `CustomTabBar`, we would inject
 it into our `ScrollableTabView` like this:
 
 ```javascript
-var ScrollableTabView = require('react-native-scrollable-tab-view');
+var ScrollableTabView = require('zy-react-native-scrollable-tab-view');
 var CustomTabBar = require('./CustomTabBar');
 
 var App = React.createClass({
@@ -59,17 +59,17 @@ var App = React.createClass({
   }
 });
 ```
-To start you can just copy [DefaultTabBar](https://github.com/skv-headless/react-native-scrollable-tab-view/blob/master/DefaultTabBar.js).
+To start you can just copy [DefaultTabBar](https://github.com/ZY-Market/react-native-scrollable-tab-view/blob/master/DefaultTabBar.js).
 
 ## Examples
 
-[SimpleExample](https://github.com/skv-headless/react-native-scrollable-tab-view/blob/master/Example/SimpleExample.js).
+[SimpleExample](https://github.com/ZY-Market/react-native-scrollable-tab-view/blob/master/Example/SimpleExample.js).
 
-[ScrollableTabsExample](https://github.com/skv-headless/react-native-scrollable-tab-view/blob/master/Example/ScrollableTabsExample.js).
+[ScrollableTabsExample](https://github.com/ZY-Market/react-native-scrollable-tab-view/blob/master/Example/ScrollableTabsExample.js).
 
-[OverlayExample](https://github.com/skv-headless/react-native-scrollable-tab-view/blob/master/Example/OverlayExample.js).
+[OverlayExample](https://github.com/ZY-Market/react-native-scrollable-tab-view/blob/master/Example/OverlayExample.js).
 
-[FacebookExample](https://github.com/skv-headless/react-native-scrollable-tab-view/blob/master/Example/FacebookExample.js).
+[FacebookExample](https://github.com/ZY-Market/react-native-scrollable-tab-view/blob/master/Example/FacebookExample.js).
 
 ## Props
 
